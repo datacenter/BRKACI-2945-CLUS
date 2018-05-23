@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link type="text/css" rel="stylesheet" href="css/cui-standard.min.css">
+    <script type='text/javascript' src='scripts/jquery-3.1.1.min.js'></script>
+    <script type='text/javascript' src='scripts/app.js'></script>
+</head>
+<body class="cui">
+<div class="content-fluid">
+    <main>
+        <header class="header">
+            <div class="header-bar container">
+                <a class="header-bar__logo">
+                    <span class="icon-cisco"></span>
+                </a>
+                <div class="header-bar__main">
+                    <div class="header-heading">
+                        <h1 class="page-title">Endpoint listing</h1>
+                    </div>
+                </div>
+                <div class="header-toolbar">
+                    <a class="btn btn--small btn--icon">
+                        <span class="icon-search"></span>
+                    </a>
+                    <a class="btn btn--small btn--icon">
+                        <span class="icon-alert"></span>
+                    </a>
+                    <a class="btn btn--small btn--icon">
+                        <span class="icon-cog"></span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="container">
+                <br>
+                <div class="panel panel--raised">
+                    <div class="row">
+                        <div class="col-md-12">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form>
+                                <div class="form-group">
+                                    <div class="form-group__text">
+                                        <input type='search' id='subnet' name='subnet' value='10.10.0.0/16'>
+                                        <label for='subnet'>Subnet</label>
+                                        <button type="button" class="link">
+                                            <span class="icon-search"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="responsive-table">
+                                <table class="table table--fixed">
+                                    <thead>
+                                    <tr>
+                                        <th>IP</th>
+                                        <th>MAC</th>
+                                        <th>Encap</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+    "api":{
+        "is_ready.json":"Check if the container is ready",
+        "resolve.json":"Perform DNS lookup"
+    },
+    "apicversion":"2.2(1k)",
+    "appid":"CLUS",
+    "author":"Andy Gossett, Axel Bodart",
+    "category":[
+        "Visibility and Monitoring"
+    ],
+    "contact":{
+        "contact-email":"aciappcenter-support@cisco.com",
+        "contact-phone":"555-123-4567",
+        "contact-url":"http://www.cisco.com/go/aci"
+    },
+    "iconfile":"icon.png",
+    "metaversion":"1.1",
+    "name":"CiscoLiveUS",
+    "permissions":[
+        "tenant-epg",
+        "fabric-protocol-mgmt"
+    ],
+    "permissionslevel":"read",
+    "shortdescr":"ACI App for CiscoLive US",
+    "vendor":"Cisco",
+    "vendordomain":"Cisco",
+    "version":"1.0"
+}
