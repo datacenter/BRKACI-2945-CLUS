@@ -12,7 +12,7 @@
     "contact":{
         "contact-email":"aciappcenter-support@cisco.com",
         "contact-phone":"555-123-4567",
-        "contact-url":"http://www.cisco.com/go/aci"
+        "contact-url":"https://github.com/datacenter/BRKACI-2945-CLUS"
     },
     "iconfile":"icon.png",
     "metaversion":"1.1",
