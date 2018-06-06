@@ -338,6 +338,7 @@ def subscribe(interests, heartbeat=60.0):
                 logger.warn("session no longer alive")
                 return
             last_heartbeat = ts
+        else: time.sleep(0.1)
 
 def check_session_subscription_health(session):
     """ check health of session subscription thread and that corresponding
