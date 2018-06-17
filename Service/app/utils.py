@@ -285,12 +285,12 @@ def subscribe(interests, heartbeat=60.0):
 
     # verify caller arguments
     if type(interests) is not dict or len(interests)==0:
-        logger.error("invalid interests for subscription: %s" % interest)
+        logger.error("invalid interests for subscription: %s" % interests)
         return
     for cname in interests:
         if type(interests[cname]) is not dict or \
             "callback" not in interests[cname]:
-            logger.error("invalid interest %s: %s" % (cname, interest[cname]))
+            logger.error("invalid interest %s: %s" % (cname, interests[cname]))
             return
         if not callable(interests[cname]["callback"]):
             logger.error("callback '%s' for %s is not callable" % (
@@ -298,7 +298,7 @@ def subscribe(interests, heartbeat=60.0):
             return
     try: heartbeat = float(heartbeat)
     except ValueError as e:
-        logger.warn("invalid heartbeat '%s', setting to 60.0" % heartbeat)
+        logger.warn("invalid heartbeat '%s', setting to 60.0" % e)
         heartbeat = 60.0
 
     # setup subscriptions
