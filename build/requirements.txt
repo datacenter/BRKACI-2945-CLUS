@@ -12,7 +12,7 @@ Flask-PyMongo==0.5.1
 idna==2.6
 ipaddress==1.0.22
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 pycparser==2.18
 pycrypto==2.6.1
